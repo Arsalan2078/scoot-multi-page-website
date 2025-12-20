@@ -1,0 +1,43 @@
+:root {
+  // colors
+  --clr-yellow: rgb(252 183 43);
+  --clr-dark-navy: rgb(73 85 103);
+  --clr-dim-grey: rgb(147 156 170);
+  --clr-light-grey-: rgb(229 236 244);
+  --clr-snow: rgb(242 245 249);
+  --clr-light-yellow: rgb(255 244 223);
+  --clr-white: rgb(255 255 255);
+
+  // type
+  --ff-space-mono: "Space Mono", monospace;
+  --ff-lexend-deca: "Lexend Deca", sans-serif;
+
+  --fs-40-56: clamp(2.5rem, 1.5458rem + 4.0712vw, 3.5rem);
+  --fs-32-48: clamp(2rem, 1.0458rem + 4.0712vw, 3rem);
+  --fs-24-40: clamp(1.5rem, 0.5458rem + 4.0712vw, 2.5rem);
+  --fs-24: 1.5rem;
+  --fs-20-24: clamp(1.25rem, 1.0115rem + 1.0178vw, 1.5rem);
+  --fs-18-24: clamp(1.125rem, 0.7672rem + 1.5267vw, 1.5rem);
+  --fs-15: 0.9375rem;
+
+  --lh-40-56: clamp(2.5rem, 1.5458rem + 4.0712vw, 3.5rem);
+  --lh-32-48: clamp(2rem, 1.0458rem + 4.0712vw, 3rem);
+  --lh-28-48: clamp(1.75rem, 0.5573rem + 5.0891vw, 3rem);
+  --lh-28: 1.75rem;
+  --lh-24-28: clamp(1.5rem, 1.2615rem + 1.0178vw, 1.75rem);
+  --lh-25: 1.5625rem;
+
+  --ls-neg-179-250: calc(
+    -1 * clamp(0.1119rem, 0.0695rem + 0.1807vw, 0.1563rem)
+  );
+  --ls-neg-143-214: calc(-1 * clamp(0.0894rem, 0.047rem + 0.1807vw, 0.1338rem));
+  --ls-neg-107-179: calc(
+    -1 * clamp(0.0669rem, 0.0239rem + 0.1832vw, 0.1119rem)
+  );
+  --ls-neg-107: -0.066875rem;
+  --ls-neg-089-107: calc(
+    -1 * clamp(0.0556rem, 0.0449rem + 0.0458vw, 0.0669rem)
+  );
+  --ls-neg-080-107: calc(-1 * clamp(0.05rem, 0.0339rem + 0.0687vw, 0.0669rem));
+  --ls-0: 0;
+}
