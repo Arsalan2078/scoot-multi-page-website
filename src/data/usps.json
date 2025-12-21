@@ -1,0 +1,18 @@
+[
+  {
+    "image": {
+      "src": "/images/digital-era.jpg",
+      "alt": ""
+    },
+    "title": "Mobility for the digital era",
+    "text": "Getting around should be simple (and even fun!) for everyone. We embrace technology to provide low cost, smart access to scooters at your fingertips."
+  },
+  {
+    "image": {
+      "src": "/images/better-living.jpg",
+      "alt": ""
+    },
+    "title": "Better urban living",
+    "text": "We’re helping connect cities and bring people closer together. Our scooters are also fully-electric and we offset the minimal carbon footprint for each ride."
+  }
+]

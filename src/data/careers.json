@@ -1,0 +1,44 @@
+[
+  {
+    "title": "General Manager",
+    "location": "Jakarta, Indonesia",
+    "link": {
+      "url": "/careers"
+    }
+  },
+  {
+    "title": "UI/UX Designer",
+    "location": "Yokohama, Japan",
+    "link": {
+      "url": "/careers"
+    }
+  },
+  {
+    "title": "Blog Content Copywriter",
+    "location": "New York, United States",
+    "link": {
+      "url": "/careers"
+    }
+  },
+  {
+    "title": "Graphic Designer",
+    "location": "New York, United States",
+    "link": {
+      "url": "/careers"
+    }
+  },
+  {
+    "title": "Fleet Supervisor",
+    "location": "Jakarta, Indonesia",
+    "link": {
+      "url": "/careers"
+    }
+  },
+  {
+    "title": "UX Analyst",
+    "location": "London, United Kingdom",
+    "link": {
+      "url": "/careers"
+    }
+  }
+]
