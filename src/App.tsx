@@ -1,18 +1,16 @@
-import { NavLink, Outlet } from "react-router";
+import { Outlet } from "react-router";
+import LogoLink from "./components/LogoLink";
+import NavLinks from "./components/NavLinks";
 
 export default function App() {
   return (
     <div data-text-preset="body">
       <nav>
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/about">About</NavLink>
-        <NavLink to="/careers">Careers</NavLink>
-        <NavLink to="/locations">Locations</NavLink>
+        <LogoLink />
+        <NavLinks />
       </nav>
 
-      <div data-text-preset="heading-1">
-        <Outlet />
-      </div>
+      <Outlet />
     </div>
   );
 }
