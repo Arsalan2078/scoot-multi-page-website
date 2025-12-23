@@ -1,16 +1,14 @@
+import css from "./App.module.scss";
 import { Outlet } from "react-router";
-import LogoLink from "./components/LogoLink";
-import NavLinks from "./components/NavLinks";
+import Footer from "./components/Footer";
+import NavbarTop from "./components/NavbarTop";
 
 export default function App() {
   return (
-    <div data-text-preset="body">
-      <nav>
-        <LogoLink />
-        <NavLinks />
-      </nav>
-
-      <Outlet />
+    <div className={`${css.app}`} data-text-preset="body">
+      <NavbarTop />
+      <Outlet/>
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,10 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+
+  // Outlet
+  > *:nth-child(2) {
+    flex: 1;
+  }
+}
