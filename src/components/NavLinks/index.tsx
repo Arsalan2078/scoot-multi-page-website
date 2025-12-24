@@ -1,4 +1,5 @@
 import { NavLink } from "react-router";
+import css from "./index.module.scss";
 
 export default function NavLinks({
   className,
@@ -6,7 +7,7 @@ export default function NavLinks({
   className?: string | undefined;
 }) {
   return (
-    <ul className={className}>
+    <ul className={`${css.links} ${className}`}>
       <li>
         <NavLink to="/about">About</NavLink>
       </li>

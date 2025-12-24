@@ -2,4 +2,16 @@
   img {
     display: block;
   }
+
+  a {
+    color: var(--color-text);
+    transition-property: background-color, color;
+    transition-duration: 0.15s;
+
+    svg path {
+      fill: var(--color-text);
+      transition-property: fill;
+      transition-duration: 0.15s;
+    }
+  }
 }

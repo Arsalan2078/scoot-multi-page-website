@@ -1,0 +1,12 @@
+.links {
+  font-family: var(--ff-space-mono);
+
+  a {
+    --color-text: var(--clr-dim-grey);
+
+    &:hover,
+    &:focus {
+      --color-text: var(--color-primary);
+    }
+  }
+}

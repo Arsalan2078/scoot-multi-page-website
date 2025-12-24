@@ -1,12 +1,19 @@
 :root {
   // colors
   --clr-yellow: rgb(252 183 43);
+  --clr-darker-navy: rgb(51 58 68);
   --clr-dark-navy: rgb(73 85 103);
   --clr-dim-grey: rgb(147 156 170);
   --clr-light-grey: rgb(229 236 244);
   --clr-snow: rgb(242 245 249);
   --clr-light-yellow: rgb(255 244 223);
   --clr-white: rgb(255 255 255);
+
+  --color-bg: var(--clr-white);
+  --color-bg-panel-darker: var(--clr-darker-navy);
+
+  --color-text: var(--clr-dim-grey);
+  --color-primary: var(--clr-yellow);
 
   // type
   --ff-space-mono: "Space Mono", monospace;
@@ -40,4 +47,8 @@
   );
   --ls-neg-080-107: calc(-1 * clamp(0.05rem, 0.0339rem + 0.0687vw, 0.0669rem));
   --ls-0: 0;
+
+  // root styles
+  background-color: var(--color-bg);
+  color: var(--color-text);
 }
