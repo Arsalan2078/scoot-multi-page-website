@@ -1,0 +1,50 @@
+.footer {
+  background-color: var(--color-bg-panel-dark);
+}
+
+.content {
+  width: min(100%, 1782 / 16 * 1rem);
+  margin: 0 auto;
+  padding-block: calc(88 / 16 * 1rem);
+  padding-inline: calc(32 / 16 * 1rem);
+
+  background-image: url("/patterns/semi-circles.svg");
+  background-repeat: no-repeat;
+  background-position-x: max(
+    calc(100% + 10.6875rem - clamp(0rem, -45rem + 50vw, 10.6875rem))
+  );
+  background-position-y: 100%;
+  color: var(--color-text-white);
+
+  h2 {
+    text-align: center;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: calc(40 / 16 * 1rem);
+}
+
+.br {
+  display: none;
+}
+
+@media screen and (min-width: calc(896 / 16 * 1rem)) {
+  .content {
+    h2 {
+      text-align: start;
+    }
+  }
+
+  .container {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: calc(64 / 16 * 1rem)
+  }
+
+  .br {
+    display: inline;
+  }
+}
